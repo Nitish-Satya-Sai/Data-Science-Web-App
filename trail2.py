@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-df_cancer = pd.read_csv("D:\Data_Science\data.csv")
+df_cancer = pd.read_csv("https://raw.githubusercontent.com/Nitish-Satya-Sai/Data-Science-Web-App/main/data.csv")
 
 df_cancer_cleaned = df_cancer.dropna(axis=1)
 
